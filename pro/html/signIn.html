@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="signincontainer" id="indiv">
+        <h2>Sign In</h2>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email_in" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password_in" name="password" required>
+            </div>
+            <div>
+                <button id="signInBTN" type="submit">Sign In</button>
+            </div>
+        <div>
+            <p class="alternate-action">Don't have an account? <button class ="link-button" id="signUpBTN">Sign Up</button></p>
+        </div>
+    </div>
+
+
+    <div class="signupcontainer" id="updiv">
+        <h2>Sign Up</h2>
+            <div class="input-group">
+                <label for="name">Full Name:</label>
+                <input type="string" id="name" name="lname"  placeholder="Please Enter Your Last Name">
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email_up" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password_up" name="password" required>
+            </div>
+            <button id ="addBtn" type="submit">Create</button>
+    </div>
+
+    <div class ="table" id ="table">
+       
+        <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+          <button id = "out"> signout</button>
+    </table>
+    </div>
+
+
+
+
+
+    <script type="module" src = "JS/proj.js"></script>
+</body>
+</html>

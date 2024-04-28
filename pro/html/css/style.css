@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #13c230a4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signincontainer {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+    
+}
+
+.signupcontainer {
+    background: rgba(255, 255, 255, 0.89);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c67f2;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #5058e5;
+}
+
+.alternate-action {
+    display:block;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.89);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.alternate-action a:hover {
+    text-decoration: underline;
+}
+.link-button {
+    background: none;        /* No background */
+    color: #5058e5;             /* Link color */
+    border: none;            /* No border */
+    padding: 0;              /* No padding */
+    font: inherit;           /* Inherit font settings from parent */
+    cursor: pointer;         /* Cursor appears as a pointer */
+    text-decoration: underline; /* Underline to mimic link */
+    display: inline;         /* To flow like text */
+}
+.link-button:hover,
+.link-button:focus {
+    text-decoration: none;  /* Optionally remove underline on hover/focus */
+    color: red;
+    background-color: white;        /* Change color on hover/focus */
+}
+.table{
+    display:none;
+}
